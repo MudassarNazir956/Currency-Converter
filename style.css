@@ -8,11 +8,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #6fe2cd;
+  background-image: url(/Curr\ Exchange.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: contrast()(100%);
 }
 
 .container {
-  background-color: #ffffff;
+  background-color: #ecf5f7;
+  box-shadow: 1px 1px 35px 5px rgb(45, 94, 110);
   padding: 2rem;
   border-radius: 1rem;
   min-height: 45vh;
@@ -75,7 +80,7 @@ form input {
 
 form button {
   height: 3rem;
-  background-color: #af4d98;
+  background-color: #2492a5;
   color: #fff;
   font-size: 1.15rem;
   cursor: pointer;
@@ -83,7 +88,7 @@ form button {
 
 form button:hover{
   height: 3rem;
-  background-color: #804472;
+  background-color: #00414d;
   color: #fff;
   font-size: 1.15rem;
   cursor: pointer;
